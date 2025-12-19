@@ -2,7 +2,7 @@
 
 A Machine Learning movie recommendation engine built with Flask and Scikit-Learn. It uses a Random Forest model trained on the MovieLens dataset to suggest movies based on content similarity and collaborative filtering.
 
-### 🚀 **[Live Demo](https://zviko163.pythonanywhere.com)**
+### 🚀 **[Live Demo](http://zviko163.pythonanywhere.com)**
 
 ---
 
@@ -14,21 +14,20 @@ A Machine Learning movie recommendation engine built with Flask and Scikit-Learn
 
 ## 🛠️ Tech Stack
 * **Python** (Flask, Pandas, NumPy, Scikit-Learn)
-* **Frontend** (HTML5, CSS3, Jinja2)
+* **Frontend** (HTML5, CSS3)
 * **Platform** (PythonAnywhere, Github)
 
 ## 📦 Local Setup
 
 1.  **Clone & Install**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/REPO_NAME.git](https://github.com/YOUR_USERNAME/REPO_NAME.git)
-    cd REPO_NAME
-    pip install -r requirements.txt
+    git clone https://github.com/zviko163/ML_Final---MovieLens-Dataset.git
+    cd ML_Final---MovieLens-Dataset/movie_app
     ```
 
 2.  **Run**
     ```bash
-    python app.py
+    python3 app.py
     ```
 
 ## 🤝 Credits
