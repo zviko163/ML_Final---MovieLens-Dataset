@@ -26,6 +26,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 data/
+test_posters.py
+movie_app/app.py
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
