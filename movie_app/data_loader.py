@@ -24,11 +24,13 @@ def load_initial_movies(limit=50):
     # Output format: [{'id': 1, 'title': 'Toy Story', 'tmdb_id': 862}, ...]
     movie_list = []
     for _, row in df_subset.iterrows():
+        # Inside the loop in data_loader.py
         movie_list.append({
             'id': int(row['movieId']),
             'title': row['title'],
+            'genres': row['genres'].split('|'), # <--- NEW: Convert "Comedy|Horror" to ['Comedy', 'Horror']
             'tmdb_id': int(row['tmdbId']),
-            'poster_url': None # We will fetch this later in app.py
+            'poster_url': None 
         })
     
     return movie_list
